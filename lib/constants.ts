@@ -46,7 +46,7 @@ export const NAVIGATION = [
   },
   {
     name: 'Palco B',
-    route: '/stage/c'
+    route: '/stage/b'
   },
   {
     name: 'Palco C',
