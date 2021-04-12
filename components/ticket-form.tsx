@@ -212,7 +212,7 @@ export default function Form({ defaultUsername = '', setTicketGenerationState }:
                 rel="noopener noreferrer"
                 className={ticketFormStyles['learn-more']}
               >
-                Learn more.
+                Saiba mais.
               </a>
             </>
           )}

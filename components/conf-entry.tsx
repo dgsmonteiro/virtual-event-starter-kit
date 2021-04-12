@@ -100,8 +100,8 @@ export default function ConfEntry({ onRegister }: { onRegister: () => void }) {
                 onChange={e => setEmailInput(e.target.value)}
                 onFocus={() => setFocused(true)}
                 onBlur={() => setFocused(false)}
-                placeholder="Enter email to join the event"
-                aria-label="Your email address"
+                placeholder="Digite seu e-mail para participar do evento"
+                aria-label="Endereço de e-mail"
                 required
               />
             )}
@@ -115,7 +115,7 @@ export default function ConfEntry({ onRegister }: { onRegister: () => void }) {
             {formState === 'loading' ? (
               <LoadingDots size={4} />
             ) : (
-              <>{formState === 'error' ? 'Try Again' : 'Join'}</>
+              <>{formState === 'error' ? 'Tente Novamente' : 'Participe'}</>
             )}
           </button>
         </div>

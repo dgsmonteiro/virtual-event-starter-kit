@@ -104,7 +104,7 @@ export default function Form({ sharePage }: Props) {
               }
             })
             .catch(async err => {
-              let message = 'Error! Please try again.';
+              let message = 'Erro! Por favor, tente novamente.';
 
               if (err instanceof FormError) {
                 const { res } = err;
@@ -113,7 +113,7 @@ export default function Form({ sharePage }: Props) {
                   : null;
 
                 if (data?.error?.code === 'bad_email') {
-                  message = 'Please enter a valid email';
+                  message = 'Por favor, digite um e-mail válido';
                 }
               }
 
@@ -142,8 +142,8 @@ export default function Form({ sharePage }: Props) {
             onChange={e => setEmail(e.target.value)}
             onFocus={() => setFocused(true)}
             onBlur={() => setFocused(false)}
-            placeholder="Enter email to register free"
-            aria-label="Your email address"
+            placeholder="Digite seu e-mail para se registrar"
+            aria-label="Digite seu e-mail"
             required
           />
         </label>
@@ -152,7 +152,7 @@ export default function Form({ sharePage }: Props) {
           className={cn(styles.submit, styles.register, styles[formState])}
           disabled={formState === 'loading'}
         >
-          {formState === 'loading' ? <LoadingDots size={4} /> : <>Register</>}
+          {formState === 'loading' ? <LoadingDots size={4} /> : <>Registre</>}
         </button>
       </div>
     </form>
