@@ -50,11 +50,11 @@ export const NAVIGATION = [
   },
   {
     name: 'Palco C',
-    route: '/stage/m'
+    route: '/stage/c'
   },
   {
     name: 'Palco D',
-    route: '/stage/e'
+    route: '/stage/d'
   },
   {
     name: 'Agenda',
