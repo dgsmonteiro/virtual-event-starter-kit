@@ -30,7 +30,8 @@ export default function IconLogo({
     >
       <rect width="100%" height="100%" rx="16" fill={backgroundColor} />
       <g transform="translate(0.000000,358.000000) scale(0.100000,-0.100000)"
-fill="#000000" stroke="none">
+        fill={foregroundColor}
+        stroke="none">
 <path d="M3297 3202 c-25 -3 -27 -6 -21 -41 5 -33 3 -40 -26 -64 -17 -15 -55
 -34 -83 -42 -59 -17 -328 -57 -335 -50 -3 2 1 11 8 20 11 13 7 17 -23 30 -62
 26 -76 21 -100 -35 -18 -40 -29 -52 -57 -61 -107 -36 -200 -105 -200 -149 0

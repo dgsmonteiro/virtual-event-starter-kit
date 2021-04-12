@@ -63,10 +63,6 @@ export const NAVIGATION = [
   {
     name: 'Participações',
     route: '/speakers'
-  },
-  {
-    name: 'Oportunidades',
-    route: '/jobs'
   }
 ];
 
