@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-export const SITE_URL = 'https://demo.vercel.events';
+export const SITE_URL = 'https://arrastaocultural.com.br';
 export const SITE_ORIGIN = process.env.NEXT_PUBLIC_SITE_ORIGIN || new URL(SITE_URL).origin;
 export const TWITTER_USER_NAME = 'vercel';
 export const BRAND_NAME = 'Arrastão';
 export const SITE_NAME_MULTILINE = ['Arrastão', 'Cultural'];
 export const SITE_NAME = 'Arrastão Cultural';
 export const META_DESCRIPTION =
-  'This is an open source demo that Next.js developers can clone, deploy, and fully customize for events. Created through collaboration of marketers, designers, and developers at Vercel.';
+  'Isso é só um exemplo do que da pra fazer, o céu é o limite.';
 export const SITE_DESCRIPTION =
-  'An interactive online experience by the community, free for everyone.';
+  'Uma experiência online interativa pela comunidade, gratuita para todos.';
 export const DATE = '30 de Junho de 2021';
 export const SHORT_DATE = '30 Jun - 21:00h';
 export const FULL_DATE = '30 de Junho de 2021 as 21:00h';
@@ -57,7 +57,7 @@ export const NAVIGATION = [
     route: '/stage/e'
   },
   {
-    name: 'Agende',
+    name: 'Agenda',
     route: '/schedule'
   },
   {
